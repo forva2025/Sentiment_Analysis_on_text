@@ -7,6 +7,7 @@
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/forva2025/Sentiment_Analysis_on_text)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.45%2B-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Live App](https://img.shields.io/badge/Live%20App-Open%20in%20Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://sentimentanalysisontext-n8ra3p3nf77p3eepoomacr.streamlit.app/)
 [![NLTK](https://img.shields.io/badge/NLTK-3.9%2B-154F3C)](https://nltk.org)
 [![Model](https://img.shields.io/badge/model-Naive%20Bayes-7C6CFF)](#how-the-model-works)
 [![Domain](https://img.shields.io/badge/domain-NLP-38D996)](#features)
@@ -16,15 +17,35 @@
 [![Issues](https://img.shields.io/github/issues/forva2025/Sentiment_Analysis_on_text)](https://github.com/forva2025/Sentiment_Analysis_on_text/issues)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
-[Features](#features) · [Installation](#installation) · [Usage](#using-the-application) · [Model](#how-the-model-works) · [Limitations](#limitations)
+[Live Demo](#live-demo) · [Features](#features) · [Installation](#installation) · [Usage](#using-the-application) · [Model](#how-the-model-works) · [Limitations](#limitations)
 
 </div>
+
+## Live demo
+
+The application is deployed on Streamlit Community Cloud. No installation is
+required—open the hosted interface and start analyzing text immediately.
+
+<div align="center">
+
+### [🚀 Launch the Sentiment Analysis App](https://sentimentanalysisontext-n8ra3p3nf77p3eepoomacr.streamlit.app/)
+
+<a href="https://sentimentanalysisontext-n8ra3p3nf77p3eepoomacr.streamlit.app/">
+  <img src="https://img.shields.io/badge/OPEN%20LIVE%20DEMO-Streamlit%20Community%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open the live Sentiment Analysis application">
+</a>
+
+</div>
+
+> Streamlit Community Cloud may put an inactive application to sleep. If the
+> first visit takes a moment, allow the app a few seconds to wake up.
 
 ## Overview
 
 This project trains a binary sentiment classifier on NLTK's `movie_reviews` corpus and presents it through a polished Streamlit interface. Visitors can enter English review-style text and see whether the saved model considers it **positive** or **negative**, together with its probability estimate and the features it received.
 
 Inference runs locally: entered text is not sent to an external prediction API. This is an educational classical-NLP project, not a moderation or high-stakes decision system.
+
+Prefer not to install it locally? Use the [hosted Streamlit application](https://sentimentanalysisontext-n8ra3p3nf77p3eepoomacr.streamlit.app/).
 
 ## Application screenshots
 
